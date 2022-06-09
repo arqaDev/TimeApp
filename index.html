@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="time.js" defer></script>
+    <title>Time App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button data-tab="#tab_1">Moscow</button>
+            <button data-tab="#tab_2">Paris</button>
+            <button data-tab="#tab_3">New York</button>
+            <button data-tab="#tab_4">London</button>
+        </div>
+        <div class="content active" id="tab_1">
+            <h1 id="moscow">Moscow</h1>
+            <h2 id="moscow_time"></h2>
+            <h3 id="moscow_timezone"></h3>
+        </div>
+        <div class="content" id="tab_2">
+            <h1 id="paris">Paris</h1>
+            <h2 id="paris_time"></h2>
+            <h3 id="paris_timezone"></h3>
+        </div>
+        <div class="content" id="tab_3">
+            <h1 id="new_york">New York</h1>
+            <h2 id="new_york_time"></h2>
+            <h3 id="new_york_timezone"></h3>
+        </div>
+        <div class="content" id="tab_4">
+            <h1 id="london">London</h1>
+            <h2 id="london_time"></h2>
+            <h3 id="london_timezone"></h3>
+        </div>
+    </div>
+</body>
+</html>
